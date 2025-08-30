@@ -1,0 +1,146 @@
+[
+  {
+    "id": 0,
+    "image": "/assets/images-products/ifrane-eucalyptus-honey-500g.jpg",
+    "name": "Miel d'Eucalyptus",
+    "category": "Miel",
+    "description": "Miel d'eucalyptus pur du Maroc, connu pour sa saveur médicinale et balsamique. Ce miel naturel est apprécié pour ses bienfaits sur la santé respiratoire : il apaise la toux, dégage les bronches et soulage les affections pulmonaires. Riche en antioxydants, antibactérien et anti-inflammatoire, il est idéal contre le rhume et la grippe. Utilisé aussi pour la cicatrisation des plaies et brûlures, ce miel bio est un allié naturel pour renforcer l'immunité et favoriser le bien-être.",
+    "price": 149.0,
+    "weight": "500g"
+  },
+  {
+    "id": 1,
+    "image": "/assets/images-products/ifrane-euphorbia-honey-1kg.jpg",
+    "name": "Miel d'Euphorbe (Daghmous)",
+    "category": "Miel",
+    "description": "Miel d'euphorbe (daghmous) authentique du Maroc, rare et recherché pour son goût piquant unique. Ce miel naturel est réputé pour traiter l'asthme allergique, la bronchite, les maux de gorge et renforcer l'immunité. Riche en antioxydants, antiviral et antibactérien puissant, il est utilisé comme remède traditionnel contre les infections. Ce miel bio marocain est aussi reconnu pour ses vertus énergétiques et ses bienfaits sur la santé digestive et respiratoire.",
+    "price": 449.00,
+    "weight": "1kg"
+  },
+  {
+    "id": 2,
+    "image": "/assets/images-products/ifrane-thyme-honey-1kg.jpg",
+    "name": "Miel de Thym",
+    "category": "Miel",
+    "description": "Miel de thym naturel du Maroc, au goût fort et aromatique. Recommandé pour ses propriétés antiseptiques, antibactériennes et cicatrisantes. Ce miel bio est idéal pour soulager la toux, apaiser les maux de gorge et renforcer les défenses immunitaires. Riche en antioxydants, il favorise la régénération des tissus et la cicatrisation des plaies et brûlures. Utilisé aussi en cosmétique naturelle, il est bénéfique pour les peaux acnéiques et sensibles.",
+    "price": 449.0,
+    "weight": "1kg"
+  },
+  {
+    "id": 3,
+    "image": "/assets/images-products/ifrane-carob-honey-1kg.jpg",
+    "name": "Miel de Caroubier",
+    "category": "Miel",
+    "description": "Miel de caroubier marocain, au goût riche rappelant le chocolat. Faible en calories, riche en antioxydants et anti-inflammatoire naturel. Ce miel bio soutient la digestion, améliore le transit intestinal et aide à traiter le rhume et la bronchite. Utilisé aussi pour la peau, il hydrate, nourrit et aide à cicatriser. Le miel de caroube est un super-aliment naturel idéal pour une alimentation saine et équilibrée.",
+    "price": 299.0,
+    "weight": "1kg"
+  },
+  {
+    "id": 4,
+    "image": "/assets/images-products/ifrane-jujube-honey-1kg.jpg",
+    "name": "Miel de Jujubier (Sidr)",
+    "category": "Miel",
+    "description": "Miel de jujubier (Sidr) du Maroc, un des miels les plus prestigieux au monde. Recherché pour ses puissantes propriétés médicinales : antibactérien, antiviral, anti-inflammatoire. Ce miel naturel renforce le système immunitaire, soutient la digestion et apaise les infections respiratoires. Riche en antioxydants, il améliore la santé de la peau, aide contre l'acné et l'eczéma, et favorise la cicatrisation des plaies. Un miel rare et haut de gamme, idéal en cure de bien-être.",
+    "price": 299.0,
+    "weight": "1kg"
+  },
+  {
+    "id": 5,
+    "image": "/assets/images-products/ifrane-orange-blossom-honey-1kg.jpg",
+    "name": "Miel de Fleur d'Oranger",
+    "category": "Miel",
+    "description": "Miel de fleur d'oranger marocain, doux et parfumé au goût floral et fruité. Recommandé pour ses effets relaxants et apaisants, il aide à réduire le stress et améliorer le sommeil. Ce miel naturel riche en antioxydants et antibactérien est parfait pour sucrer le thé, les yaourts et pâtisseries. Polyvalent, ce miel bio est à la fois un aliment sain et un remède naturel contre la fatigue et l'anxiété.",
+    "price": 119.0,
+    "weight": "1kg"
+  },
+  {
+    "id": 6,
+    "image": "/assets/images-products/ifrane-mountain-herbs-honey-1kg.jpg",
+    "name": "Miel d'Herbes de Montagne",
+    "category": "Miel",
+    "description": "Miel d'herbes de montagne polyfloral, issu des fleurs sauvages marocaines. Sa richesse en antioxydants et ses propriétés antibactériennes et anti-inflammatoires en font un excellent tonique naturel. Ce miel bio renforce le système immunitaire, apaise les maux de gorge et soulage la toux. Polyvalent, il est utilisé en alimentation saine et en soins naturels pour revitaliser l'organisme et améliorer la santé globale.",
+    "price": 299.0,
+    "weight": "1kg"
+  },
+  {
+    "id": 7,
+    "image": "/assets/images-products/hait-nature-prickly-pear-gel-scrub-100g.jpg",
+    "name": "Gel Gommant à la Figue de Barbarie",
+    "category": "Soin de la peau",
+    "description": "Gel gommant à la figue de barbarie bio, riche en antioxydants, vitamines et minéraux. Exfolie en douceur les cellules mortes, améliore le teint et la texture de la peau. Grâce à ses propriétés hydratantes et anti-inflammatoires, ce soin naturel est idéal pour nourrir, apaiser et redonner éclat et jeunesse à la peau. Produit cosmétique marocain efficace pour un gommage doux et régénérant.",
+    "price": 59.0,
+    "weight": "100g"
+  },
+  {
+    "id": 8,
+    "image": "/assets/images-products/hait-nature-aloe-vera-creamy-scrub-100g.jpg",
+    "name": "Gommage Crémeux à l'Aloe Vera",
+    "category": "Soin de la peau",
+    "description": "Gommage crémeux à l'Aloe Vera naturel, hydratant et apaisant. Élimine les impuretés et cellules mortes tout en nourrissant intensément la peau. Idéal pour les peaux sensibles et irritées grâce à ses propriétés cicatrisantes et anti-inflammatoires. Ce soin bio marocain laisse la peau douce, rafraîchie et éclatante, parfait pour une routine beauté naturelle.",
+    "price": 59.0,
+    "weight": "100g"
+  },
+  {
+    "id": 9,
+    "image": "/assets/images-products/hait-nature-argan-creamy-scrub-100g.jpg",
+    "name": "Gommage Crémeux à l'Argan",
+    "category": "Soin de la peau",
+    "description": "Gommage crémeux à l'huile d'argan bio, riche en vitamine E et acides gras essentiels. Exfolie la peau tout en apportant nutrition et hydratation profonde. Ce soin naturel améliore l'élasticité de la peau, réduit les ridules et restaure un teint éclatant. Produit cosmétique marocain incontournable pour une peau douce, lisse et lumineuse.",
+    "price": 59.0,
+    "weight": "100g"
+  },
+  {
+    "id": 10,
+    "image": "/assets/images-products/hait-nature-rose-creamy-scrub-100g.jpg",
+    "name": "Gommage Crémeux à la Rose",
+    "category": "Soin de la peau",
+    "description": "Gommage crémeux à la rose naturelle, délicat et apaisant. Exfolie en douceur, réduit les rougeurs et calme les irritations. Grâce à ses huiles nourrissantes, il hydrate la peau et lui donne un éclat sain. Ce soin bio marocain est parfait pour une peau douce, hydratée et lumineuse, adapté aux peaux sensibles.",
+    "price": 59.0,
+    "weight": "100g"
+  },
+  {
+    "id": 11,
+    "image": "/assets/images-products/hait-nature-frankincense-creamy-scrub-100g.jpg",
+    "name": "Gommage Crémeux à l'Oliban",
+    "category": "Soin de la peau",
+    "description": "Gommage crémeux à l'oliban (encens) naturel, réputé pour ses vertus anti-âge. Exfolie en douceur, raffermit et lisse la peau, réduit rides et cicatrices. Ce soin bio favorise la régénération cellulaire et uniformise le teint. Produit cosmétique marocain efficace pour une peau rajeunie, tonifiée et éclatante.",
+    "price": 0.0,
+    "weight": "100g"
+  },
+  {
+    "id": 12,
+    "image": "/assets/images-products/hait-nature-nila-bleu-creamy-scrub-100g.jpg",
+    "name": "Gommage Crémeux au Nila Bleu",
+    "category": "Soin de la peau",
+    "description": "Gommage crémeux au Nila Bleu, ingrédient traditionnel du Sahara. Éclaircit et unifie le teint, réduit les taches brunes et adoucit les zones rugueuses. Ce soin exfoliant naturel élimine les impuretés et cellules mortes pour une peau lisse et radieuse. Produit cosmétique marocain idéal pour retrouver une peau douce et lumineuse.",
+    "price": 59.0,
+    "weight": "100g"
+  },
+  {
+    "id": 13,
+    "image": "/assets/images-products/hait-nature-wadaa-creamy-scrub-100g.jpg",
+    "name": "Gommage Crémeux de Wadaa",
+    "category": "Soin de la peau",
+    "description": "Gommage crémeux à la poudre de Wadaa (coquillages), utilisé dans les soins traditionnels marocains. Exfolie en douceur, purifie la peau et révèle un teint lumineux. Ce soin bio naturel adoucit et affine la texture de la peau pour une apparence plus nette et éclatante. Idéal pour un rituel beauté authentique du Maroc.",
+    "price": 59.0,
+    "weight": "100g"
+  },
+  {
+    "id": 14,
+    "image": "/assets/images-products/hait-nature-aker-fassi-creamy-scrub-100g.jpg",
+    "name": "Gommage Crémeux à l'Aker Fassi",
+    "category": "Soin de la peau",
+    "description": "Gommage crémeux à l'Aker Fassi, mélange traditionnel de coquelicot et grenade. Riche en antioxydants, il hydrate, adoucit et donne un éclat naturel à la peau. Ce soin bio marocain exfolie délicatement et laisse une subtile teinte rosée. Produit cosmétique naturel idéal pour illuminer le teint et nourrir la peau.",
+    "price": 59.0,
+    "weight": "100g"
+  },
+  {
+    "id": 15,
+    "image": "/assets/images-products/hait-nature-cosmetic-argan-oil.jpg",
+    "name": "Huile d'Argan Cosmétique",
+    "category": "Huile",
+    "description": "Huile d'argan cosmétique 100% pure et naturelle du Maroc, riche en vitamine E, antioxydants et acides gras essentiels. Hydratant puissant pour la peau et les cheveux, elle adoucit, nourrit et améliore l'élasticité. Utilisée pour réduire l'acné, les rides et les vergetures, elle est incontournable en cosmétique naturelle. Cette huile bio marocaine pénètre rapidement et laisse une peau douce et des cheveux brillants.",
+    "price": 89.0,
+    "weight": null
+  }
+]

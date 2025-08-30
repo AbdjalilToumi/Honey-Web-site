@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --hover-bg-color: #33333317;
+  --hover-border-color: rgba(255, 255, 0, 0.658);
+  --header-font: 'Playfair Display', serif;
+  --body-font: 'Lato', sans-serif;
+  --h:  #ffffff00;
+}
+body {
+  box-sizing: border-box;
+  font-family: var(--body-font);
+}
+
+.autoShow {
+  animation: autoShowAnimate linear;
+  animation-timeline: view();
+  animation-range: entry 0% ;
+}
+@keyframes autoShowAnimate {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+details > summary {
+ list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+ display: none;
+}
+
+
+details[open] > summary > span {
+  transform: rotate(90deg);
+}
+
+
+@keyframes ping {
+    75%, 100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+.animate-ping {
+    animation: ping 1.5s 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
