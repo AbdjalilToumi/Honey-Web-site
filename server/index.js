@@ -244,7 +244,7 @@ const sendMailZakaria = async ({name, lastName, phoneNumber, city, location, pro
 };
 
 const app = express();
-const PORT = 8080;
+const Port = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(express.json());
@@ -266,4 +266,6 @@ app.post('/order', (req, res) => {
 })
 
 
-module.exports = app;
+app.listen(Port, () =>  {
+  console.log(`Server start on ${Port}`)
+})
