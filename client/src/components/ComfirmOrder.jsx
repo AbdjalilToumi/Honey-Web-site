@@ -2,6 +2,7 @@ import React, { useCallback, useRef, useState } from 'react'
 import { useCart } from '../Contexts/CartContext'
 import { useNavigate } from 'react-router-dom';
 import { MdError } from "react-icons/md";
+const backendUrl = import.meta.env.VITE_BACKEND_URL;
 const ComfirmOrder = ({isComfirmedOrder, comfirmedOrder}) => {
     let {cart, getTotalPrice, resetCart} = useCart();
     let navigator = useNavigate();
@@ -93,7 +94,7 @@ const ComfirmOrder = ({isComfirmedOrder, comfirmedOrder}) => {
                 date: formattedDate,
             }
             try {
-            let resp = await fetch("http://localhost:8080/order", {
+            let resp = await fetch(`${backendUrl}/order`, {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',

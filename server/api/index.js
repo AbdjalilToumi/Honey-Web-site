@@ -266,7 +266,4 @@ app.post('/order', (req, res) => {
 })
 
 
-// server run on the port 8080
-app.listen(PORT, () =>  {
-    console.log(`Server Satrt on Port ${PORT}`);
-})
+module.exports = app;

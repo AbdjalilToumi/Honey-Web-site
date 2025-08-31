@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useReducer, useState } from 'react';
-
+const backendUrl = import.meta.env.VITE_BACKEND_URL;
 const Contact = () => {
   let [resMessage, setResmessage ] = useState(null);
   let [isError, setIsError] = useState(false);
@@ -38,9 +38,9 @@ const Contact = () => {
         email: emailValue,
         subject: subjectValue,
         message: messageValue,
-      }
+      }/contact-form
       try {
-        const resp = await fetch('http://localhost:8080/contact-form',  {
+        const resp = await fetch(`${backendUrl}/contact-form`,  {
           method: "POST",
           headers: {
             'Content-Type': 'application/json',
