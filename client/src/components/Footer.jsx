@@ -14,13 +14,13 @@ const Footer = () => {
         <h1 className='uppercase text-2xl font-bold text-yellow-400 tracking-wide'>Ifrane miel</h1>
       </div>
       <p className='text-sm text-gray-500'>© 2024 Ifrane miel. All Rights Reserved.</p>
-      <div className='mt-2 text-xs text-gray-500 space-x-2'>
+      {/* <div className='mt-2 text-xs text-gray-500 space-x-2'>
         <a href="#" className='hover:underline'>[Privacy Policy]</a>
         <span>|</span>
         <a href="#" className='hover:underline'>[Terms of Service]</a>
         <span>|</span>
         <a href="#" className='hover:underline'>[Shipping & Returns]</a>
-      </div>
+      </div> */}
     </div>
 
     {/* Navigation Links & Socials */}
