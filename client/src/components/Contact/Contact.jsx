@@ -38,7 +38,7 @@ const Contact = () => {
         email: emailValue,
         subject: subjectValue,
         message: messageValue,
-      }/contact-form
+      }
       try {
         const resp = await fetch(`${backendUrl}/contact-form`,  {
           method: "POST",
