@@ -6,7 +6,7 @@
     "category": "Huile d'Argan Cosmétique",
     "description": "Découvrez notre sérum à l'huile d'argan pure, un soin cosmétique naturel essentiel. Riche en vitamine E et antioxydants, il hydrate et régénère votre peau et vos cheveux. Ce sérum bio réduit les signes de l'âge, l'acné et les vergetures, pour une peau éclatante et des cheveux soyeux. Adoptez ce trésor marocain pour une beauté naturelle et durable.",
     "price": 149.0,
-    "weight": "50ml"
+    "weight": "250ml"
   },
   {
     "id": 1,
@@ -14,8 +14,8 @@
     "name": "Argan Oil Spray Cosmetic",
     "category": "Huile d'Argan Cosmétique",
     "description": "Notre spray à l'huile d'argan cosmétique offre une application facile et rapide. Cette huile bio 100% naturelle nourrit et protège votre peau et vos cheveux au quotidien. Idéal pour un coup d'éclat instantané, il hydrate en profondeur, fortifie les cheveux et améliore l'élasticité de la peau. Un indispensable pour votre routine beauté.",
-    "price": 49.0,
-    "weight": "30ml"
+    "price": 69.0,
+    "weight": "70ml"
   },
   {
     "id": 2,
@@ -41,8 +41,8 @@
     "name": "Argan Oil for Cosmetics Small",
     "category": "Huile d'Argan Cosmétique",
     "description": "Petit format pratique de notre huile d'argan cosmétique pure. Idéale pour découvrir ses bienfaits ou pour les voyages, cette huile bio hydrate intensément peau et cheveux. Riche en nutriments, elle lutte contre le vieillissement cutané, les pointes fourchues et la sécheresse. Votre allié beauté nomade pour un soin naturel à portée de main.",
-    "price": 59.0,
-    "weight": "100ml"
+    "price": 29.0,
+    "weight": "30ml"
   },
   {
     "id": 5,
@@ -69,7 +69,7 @@
     "category": "Miel d'Ifrane",
     "description": "Miel d'euphorbe (Daghmous) d'Ifrane 500g, un miel marocain rare et puissant. Connu pour ses propriétés médicinales, il stimule l'immunité, soulage l'asthme et les maux de gorge. Son goût piquant caractéristique en fait un remède naturel très recherché. Miel bio pur pour votre santé et vitalité.",
     "price": 449.0,
-    "weight": "500g"
+    "weight": "1kg"
   },
   {
     "id": 8,
@@ -96,6 +96,24 @@
     "category": "Miel d'Ifrane",
     "description": "Miel de thym d'Ifrane 1kg, réputé pour ses propriétés antiseptiques et cicatrisantes. Ce miel naturel marocain est idéal pour les maux de gorge, la toux et pour renforcer les défenses immunitaires. Son goût puissant et aromatique en fait un allié santé incontournable. Miel bio pur pour un bien-être quotidien.",
     "price": 449.0,
+    "weight": "1kg"
+  },
+  {
+    "id": 11,
+    "image": "/assets/images-products/pumpkin-seed-paste.webp",
+    "name": "Pumpkin Seed Paste 1kg",
+    "category": "Pâtes et Beurres Naturels",
+    "description": "Découvrez notre pâte artisanale de graines de courge, 100% naturelle et nutritive. Riche en magnésium, zinc et protéines, elle soutient l’immunité, améliore l’énergie et favorise une bonne digestion. Sa texture onctueuse et son goût unique en font un choix parfait pour vos tartines, smoothies et recettes saines.",
+    "price": 179.0,
+    "weight": "1kg"
+  },
+  {
+    "id": 12,
+    "image": "/assets/images-products/almond-butter-1kg.webp",
+    "name": "Almond Butter 1kg",
+    "category": "Pâtes et Beurres Naturels",
+    "description": "Savourez notre beurre d'amande 100% pur, sans additifs. Naturellement riche en protéines, fibres, vitamines E et magnésium, il soutient la santé du cœur et procure une énergie durable. Sa saveur douce et sa texture crémeuse en font un délice nutritif pour vos petits-déjeuners, desserts et collations.",
+    "price": 179.0,
     "weight": "1kg"
   }
 ]

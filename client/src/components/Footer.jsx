@@ -32,10 +32,10 @@ const Footer = () => {
         <Link to='about' className='hover:text-white transition-colors duration-200'>À propos</Link>
       </nav>
       <div className='flex justify-between gap-5 mt-6'>
-        <a href="https://www.facebook.com/" aria-label="Facebook">
+        <a href="https://www.facebook.com/profile.php?id=61581583350372" target="_blank" aria-label="Facebook">
           <FaFacebook size={25} fill='white' className='hover:fill-yellow-400 transition-colors'/>
         </a>
-        <a href="https://www.instagram.com/" aria-label="Instagram">
+        <a href="https://www.instagram.com/manahilifrane1?igsh=bmk3bTJvcnMwN3Vp" target="_blank" aria-label="Instagram">
           <FaInstagram size={25} fill='white' className='hover:fill-yellow-400 transition-colors'/>
         </a>
         <a href="https://maps.app.goo.gl/b6PWzRTpK7zSos8J6" target="_blank" rel="noopener noreferrer" aria-label="Location">
