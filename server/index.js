@@ -6,7 +6,7 @@ const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: process.env.EMAIL_USER || "abdjaliltoumi77@gmail.com",  
-    pass: process.env.EMAIL_PASSWORD // Use environment variable
+    pass: process.env.EMAIL_PASSWORD 
   }
 });
 
@@ -385,7 +385,6 @@ const Port = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
-
 // check server is running
 app.get('/', (req, res) => {
   res.json({ message: 'Server is running!' });
