@@ -94,7 +94,7 @@ const ComfirmOrder = ({isComfirmedOrder, comfirmedOrder}) => {
                 date: formattedDate,
             }
             try {
-            let resp = await fetch(`${backendUrl}/order`, {
+            let resp = await fetch(`${backendUrl}order`, {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',
