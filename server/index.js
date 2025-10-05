@@ -5,8 +5,8 @@ import nodemailer from 'nodemailer'
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "abdjaliltoumi77@gmail.com",  
-    pass: "ykjm ouoo lixz wjdm"
+    user: process.env.EMAIL_USER || "abdjaliltoumi77@gmail.com",  
+    pass: process.env.EMAIL_PASSWORD // Use environment variable
   }
 });
 
@@ -381,10 +381,15 @@ const sendContactMailZakaria = async ({name, email, subject, message}) => {
     }
 };
 const app = express();
-const Port = process.env.PORT || 8080;
+const Port = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
+
+// check server is running
+app.get('/', (req, res) => {
+  res.json({ message: 'Server is running!' });
+});
 
 // contact part
 app.post("/contact-form", (req, res) => {
