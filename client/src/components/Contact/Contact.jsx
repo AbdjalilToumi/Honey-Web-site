@@ -40,7 +40,7 @@ const Contact = () => {
         message: messageValue,
       }
       try {
-        const resp = await fetch(`${backendUrl}/contact-form`,  {
+        const resp = await fetch(`${backendUrl}contact-form`,  {
           method: "POST",
           headers: {
             'Content-Type': 'application/json',
@@ -61,9 +61,9 @@ const Contact = () => {
       catch(error){
         setIsError(true);
         setResmessage('Something went wrong try later. ❗'); 
-        setTimeout(() => {
-          window.location.reload();
-        }, 1800);
+        // setTimeout(() => {
+        //   window.location.reload();
+        // }, 1800);
         console.log("error" + error);
       }
     }
