@@ -5,13 +5,13 @@ import { FiTrash2 } from 'react-icons/fi';
 import { useLang } from '@/contexts/LangContext';
 
 interface CartCardProps {
-  cart: { id: number }[];
+  cart: { id: string }[];
   onQuantitychange: (ischange: boolean) => void;
-  removefromcart: (id: number) => void;
-  incrementquantity: (id: number) => void;
-  getquantity: (id: number) => number;
-  decrementquantity: (id: number) => void;
-  idproduct: number;
+  removefromcart: (id: string) => void;
+  incrementquantity: (id: string) => void;
+  getquantity: (id: string) => number;
+  decrementquantity: (id: string) => void;
+  idproduct: string;
   productweight: string;
   productimage: string;
   productname: string;
