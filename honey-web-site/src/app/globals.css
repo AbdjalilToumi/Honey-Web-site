@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light;
+}
+
+@theme inline {
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-lato);
+}
+
+:root {
+  --honey-50:  #fffbeb;
+  --honey-100: #fef3c7;
+  --honey-400: #fbbf24;
+  --honey-500: #f59e0b;
+  --honey-600: #d97706;
+  --honey-700: #b45309;
+  --honey-900: #78350f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body), 'Lato', sans-serif;
+  background-color: #fffbeb;
+  color: #1c1917;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), 'Playfair Display', serif;
+}
+
+/* scroll-driven entrance animation */
+.autoShow {
+  animation: autoShowAnimate linear both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
+
+@keyframes autoShowAnimate {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* details/summary arrow */
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
+details[open] > summary > span { transform: rotate(90deg); }
+
+/* toast ping */
+@keyframes ping {
+  75%, 100% { transform: scale(1.5); opacity: 0; }
+}
+.animate-ping {
+  animation: ping 1.5s 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
